@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Form</title>
+     <link rel="stylesheet" href="forms.css">
+</head>
+
+<body>
+    <div class="container">
+    <h2>
+        <p>Personal Details</p>
+    </h2>
+    <form action="vinitrana5437@gmail.com">
+        <div>
+            <label class="required" for="Name" required>Name: </label>
+            <input type="text" placeholder="Enter your name" id="Name" name="name" required>
+        </div><br>
+        <div>
+            <label class="required" for="email">E-mail: </label>
+            <input type="email" placeholder="Enter your mail" id="email" required>
+        </div><br>
+        <div>
+            <label class="required" for="pass">Password: </label>
+            <input type="password" placeholder="Enter your Password" id="pass" required>
+        </div><br>
+        <div>
+            Gender: <input type="radio" name="gender">Male <input type="radio" name="gender"> Female <input type="radio"
+                name="gender"> Other
+        </div><br>
+        <div>
+            <label class="required" for="phone">Phone: </label>
+            <input type="number" placeholder="Enter phone no." id="phone"required>
+        </div><br>
+        <div>
+            <label class="required" for="date">DOB: </label>
+            <input type="date" id="date" required>
+        </div><br>
+        <div>
+            <label for="country">Country:</label>
+            <select name="country" id="country">
+                <option value="Select" selected>Select</option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="Japan">Japan</option>
+                <option value="Nepal">Nepal</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        <h2>
+            <p>Educational Qualifications</p>
+        </h2>
+        <div>
+            <label for="degree">Degree: </label>
+            <select id="degree">
+                <option value="Select" selected>Select</option>
+                <option>B.tech</option>
+                <option>B.Sc</option>
+                <option>B.Com</option>
+                <option>B.A</option>
+                <option>Other</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="branch">Branch: </label>
+            <select id="branch">
+                <option value="Select" selected>Select</option>
+                <option>Computer Science and Engineering</option>
+                <option>Electrical Engineering</option>
+                <option>Computer Science</option>
+                <option>Mechanical Engineering</option>
+                <option>Civil Engineering</option>
+                <option>Other</option>
+            </select>
+        </div><br>
+        <h2>
+            <label for="address">Address</label>
+            <p><Address>  
+                <textarea name="textarea" id="address"cols="60" rows="8"></textarea>
+            </Address></p>
+        </h2>
+        <div>
+            <label class="required" for="resume">Attach Resume: </label>
+            <input type="file" id="resume"required>
+        </div><br>
+        <div class="footer">
+            <label for="button"> </label>
+            <button type="submit" id="button">Submit </button>
+            <button type="reset" id="button">Reset </button>
+        </div>
+        
+    </form>
+</div>
+</body>
+
+</html>
